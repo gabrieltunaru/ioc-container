@@ -1,0 +1,6 @@
+[
+  {
+    "interface": "movieFinder.MovieFinder",
+    "implementation": "movieFinder.MovieFinderImpl"
+  }
+]
