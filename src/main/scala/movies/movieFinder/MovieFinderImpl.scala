@@ -1,4 +1,4 @@
-package movieFinder
+package movies.movieFinder
 
 import framework.utils.FileReader
 

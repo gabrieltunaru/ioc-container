@@ -1,0 +1,14 @@
+[
+  {
+    "interface": "dataPipe.decoding.ListDecoder",
+    "implementation": "dataPipe.decoding.ColonListDecoder"
+  },
+  {
+    "interface": "dataPipe.encoding.ListEncoder",
+    "implementation": "dataPipe.encoding.SemicolonListEncoder"
+  },
+  {
+    "interface": "dataPipe.DataPipe",
+    "implementation": "dataPipe.DataPipe"
+  }
+]

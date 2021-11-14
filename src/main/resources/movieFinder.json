@@ -1,11 +1,11 @@
 [
   {
-    "interface": "movieFinder.MovieFinder",
-    "implementation": "movieFinder.MovieFinderImpl",
+    "interface": "movies.movieFinder.MovieFinder",
+    "implementation": "movies.movieFinder.MovieFinderImpl",
     "params": ["movies.txt"]
   },
   {
-    "interface": "movieFinder.MovieLister",
-    "implementation": "movieFinder.MovieLister"
+    "interface": "movies.movieLister.MovieLister",
+    "implementation": "movies.movieLister.MovieLister"
   }
 ]
