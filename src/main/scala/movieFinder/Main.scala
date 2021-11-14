@@ -11,10 +11,9 @@ object Main {
     val ioCContainer = IoCContainer()
     config.foreach(ioCContainer.registerComponentImplementation)
 
-    val movieFinder: MovieFinder =
-      ioCContainer
-        .getComponentImplementation(classOf[MovieFinder])
+    val movieLister: MovieLister =
+      ioCContainer.getComponentImplementation(classOf[MovieLister])
 
-    movieFinder.findAny()
+    movieLister.listAll()
   }
 }

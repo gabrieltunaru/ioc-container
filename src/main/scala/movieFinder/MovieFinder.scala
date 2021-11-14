@@ -1,5 +1,5 @@
 package movieFinder
 
 abstract class MovieFinder {
-  def findAny(): Unit
+  def findAny(): String
 }
